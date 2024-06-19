@@ -18,11 +18,13 @@ Install dependencies
   npm install
 ```
 
-Start the server
+Start the project
 
+for Tailwind
 ```bash
   npx tailwindcss -i ./public/app.css -o ./public/output.css --watch
 ```
+for server
 ```bash
   php -S localhost:9999
 ```
